@@ -1,0 +1,110 @@
+/* Extra small devices (portrait phones, less than 576px)
+ * No media query since this is the default in Bootstrap
+ *
+ *
+ *   Small devices (landscape phones, 576px and up) 
+ *  @media (min-width: 576px) {  }
+
+ *   Medium devices (tablets, 768px and up) 
+ *  @media (min-width: 768px) {  }
+
+ *   Large devices (desktops, 992px and up) 
+ *  @media (min-width: 992px) {  }
+
+ *   Extra large devices (large desktops, 1200px and up)
+ *  @media (min-width: 1200px) {  }
+ */
+a {
+   color: #005591;
+   transition: color 0.15s ease-in-out;
+}
+a:hover {
+   color: #fd591f;
+}
+body {
+   color: #005591;
+}
+section {
+   padding-top: 120px;
+}
+.heading {
+   display: block;
+   margin-bottom: 30px;
+   text-transform: uppercase;
+}
+.heading::after {
+   background: #fd591f;
+   content: " ";
+   display: block;
+   height: 2px;
+   margin: 18px auto 18px;
+   width: 60px;
+}
+.social-links {
+   margin-bottom: 40px;
+   padding: 10px;
+}
+.social-links .link-item {
+   border-radius: 50%;
+   border: 1px solid #fd591f;
+   color: #fd591f;
+   margin-right: 8px;
+   padding: 10px;
+}
+p.lead {
+   line-height: 2.0;
+}
+.h-links {
+   margin-top: 80px;
+}
+.h-link.h1, .h-link.h2,
+.h-link.h3, .h-link.h4,
+.h-link.h5, .h-link.h6 {
+   display: inline-block;
+   font-weight: 300;
+   letter-spacing: -1px;
+   margin-right: 16px;
+   text-decoration: none;
+}
+.picasso {
+   display: flex;
+   justify-content: space-around;
+   flex-wrap: wrap;
+}
+.picasso img {
+   margin-top: 14px;
+}
+.highlight {
+   background: #005591;
+   color: #fff;
+   padding: 50px 40px;
+
+}
+.highlight .heading::after {
+   color: #fff;
+}
+.highlight .highlight-item {
+   border-bottom: 1px solid #fff;
+   margin-left: 12px;
+   padding-top: 12px;
+   padding-bottom: 24px;
+}
+.highlight-item span {
+   display: block;
+   font-size: 0.85rem;
+   margin-bottom: 20px;
+   margin-top: 20px;
+}
+.highlight-item .h3 {
+   color: #fff;
+   font-weight: 400;
+}
+.highlight-item .h3 > span {
+   line-height: 1.42;
+   margin-left: 8px;
+   margin-top: 0px;
+}
+
+.box {
+   margin-top: 20px;
+}
