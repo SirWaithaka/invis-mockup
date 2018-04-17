@@ -158,6 +158,7 @@ p.lead {
    padding: 40px;
 }
 .info-card .card-icon {
+   background: #003459;
    border: 2px solid #fff;
    border-radius: 50%;
    display: block;
@@ -191,4 +192,24 @@ p.lead {
    display: flex;
    min-height: 100%;
    min-width: 100%;
+}
+.sticky-link {
+   display: flex;
+   font-size: 0.78rem;
+   justify-content: flex-end;
+   margin-bottom: 20px;
+}
+.sticky-link a {
+   margin-right: 5px;
+   text-decoration: none;
+}
+.arrow-right {
+   border-bottom: 7px solid transparent;  /* left arrow slant */
+   border-top: 7px solid transparent; /* right arrow slant */
+   border-left: 12px solid #fd591f; /* bottom, add background color here */
+   font-size: 0;
+   height: 0;
+   margin-left: 8px;
+   vertical-align: middle;
+   width: 0;
 }
