@@ -53,7 +53,7 @@ THEMING FOR BOOTSTRAP COMPONENTS
    font-size: 14px;
    letter-spacing: 0.08em;
    line-height: 1.42857143;
-   padding: 18px 28px;
+   padding: 0.675rem 1.25rem;
    text-transform: uppercase;
 }
 .btn-primary {
@@ -61,7 +61,10 @@ THEMING FOR BOOTSTRAP COMPONENTS
    color: #005591;
    border: 2px solid #fd591f;
 }
-
+.btn-lg {
+  padding: 1.15rem 2.25rem;
+}
+.btn
 /* TYPOGRAPHY */
 .h1, .h2, .h3,
 .h4, .h5, .h6 {
@@ -91,4 +94,10 @@ h5, .h5 {
 h6, .h6 {
   font-size: 14px;
   font-weight: 700;
+}
+
+/* CAROUSEL */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-image: none;
 }

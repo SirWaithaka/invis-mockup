@@ -27,6 +27,24 @@ body {
 section {
    padding-top: 120px;
 }
+footer {
+   background: #005591;
+   border-top: 4px solid #003459;
+   color: #fff;
+   margin-top: 40px;
+   padding: 30px 45px;
+}
+footer .copyright {
+   font-size: 0.9rem;
+}
+footer .footer-nav {
+   display: flex;
+   justify-content: space-around;
+}
+.footer-nav a {
+   color: #fff;
+   text-decoration: none;
+}
 .heading {
    display: block;
    margin-bottom: 30px;
@@ -37,7 +55,7 @@ section {
    content: " ";
    display: block;
    height: 2px;
-   margin: 18px auto 18px;
+   margin: 18px 0px;
    width: 60px;
 }
 .social-links {
@@ -51,6 +69,14 @@ section {
    margin-right: 8px;
    padding: 10px;
 }
+.carousel img {
+   max-height: 640px;
+}
+.carousel-control-next-icon > svg,
+.carousel-control-prev-icon > svg {
+   font-size: 92px;
+}
+
 p.lead {
    line-height: 2.0;
 }
@@ -62,8 +88,8 @@ p.lead {
 .h-link.h5, .h-link.h6 {
    display: inline-block;
    font-weight: 300;
-   letter-spacing: -1px;
-   margin-right: 16px;
+   letter-spacing: 0px;
+   margin-right: 20px;
    text-decoration: none;
 }
 .picasso {
@@ -81,7 +107,17 @@ p.lead {
 
 }
 .highlight .heading::after {
+   background: #fff;
+}
+.highlight .h3,
+.highlight .h4,
+.highlight .h5,
+.highlight .h6 {
    color: #fff;
+   font-weight: 400;
+}
+.highlight .h4 {
+   margin: 20px 0px;
 }
 .highlight .highlight-item {
    border-bottom: 1px solid #fff;
@@ -95,16 +131,64 @@ p.lead {
    margin-bottom: 20px;
    margin-top: 20px;
 }
-.highlight-item .h3 {
-   color: #fff;
-   font-weight: 400;
-}
+
 .highlight-item .h3 > span {
    line-height: 1.42;
    margin-left: 8px;
    margin-top: 0px;
 }
-
-.box {
-   margin-top: 20px;
+.highlight .btn {
+   background: #005591;
+   color: #fff;
+   border: 1px solid #fff;
+}
+.highlight .btn:hover {
+   background: #fff;
+   color: #005591;
+}
+.highlight .highlight-text {
+   font-size: 0.92rem;
+}
+.info-card {
+   background: #005591;
+   border-radius: 0px;
+}
+.info-card .card-img-top {
+   margin: auto;
+   padding: 40px;
+}
+.info-card .card-icon {
+   border: 2px solid #fff;
+   border-radius: 50%;
+   display: block;
+   margin: auto;
+   padding: 64px 10px;
+}
+.card-icon > svg {
+   color: #fff;
+   font-size: 44px;
+   vertical-align: middle;
+   width: 100% !important;
+}
+.info-card .card-title.h4,
+.info-card .card-title.h5,
+.info-card .card-title.h6 {
+   color: #fff;
+   font-weight: 400;
+   text-align: center;
+}
+.image-card {
+   border: none;
+}
+.image-card img {
+   max-width: 100%;
+}
+.sponsors {
+   border-bottom: 1px solid #ccc;
+}
+.sponsor {
+   align-items: flex-end;
+   display: flex;
+   min-height: 100%;
+   min-width: 100%;
 }
