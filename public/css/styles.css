@@ -59,15 +59,15 @@ footer .footer-nav {
    width: 60px;
 }
 .social-links {
-   margin-bottom: 40px;
    padding: 10px;
 }
 .social-links .link-item {
    border-radius: 50%;
    border: 1px solid #fd591f;
    color: #fd591f;
+   display: inline-block;
    margin-right: 8px;
-   padding: 10px;
+   padding: 8px;
 }
 .carousel img {
    max-height: 640px;
@@ -212,4 +212,15 @@ p.lead {
    margin-left: 8px;
    vertical-align: middle;
    width: 0;
+}
+.navbar .form-inline .input-group {
+   border-bottom: 1px solid #003459;
+}
+.navbar .form-inline input {
+   border: none;
+   border-radius: 0px;
+}
+.navbar .form-inline .input-group-append button {
+   border: none;
+   padding: 0.35rem 0.5rem;
 }

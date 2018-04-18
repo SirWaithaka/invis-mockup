@@ -26,6 +26,7 @@ THEMING FOR BOOTSTRAP COMPONENTS
 }
 .navbar-toggler .navbar-toggler-icon {
    background: rgb(253, 89, 31, 0.9);
+   display: block;
    height: 1px;
    width: 55px;
 }
@@ -33,10 +34,15 @@ THEMING FOR BOOTSTRAP COMPONENTS
 .navbar-toggler .navbar-toggler-icon::after {
    background: rgb(253, 89, 31, 0.9);
    content: " ";
+   display: block;
+   height: 1px;
    width: 55px;
 }
 .navbar-toggler .navbar-toggler-icon::after {
-   margin-top: 5px;
+   margin-top: 15px;
+}
+.navbar-toggler .navbar-toggler-icon::before {
+  margin-bottom: 10px;
 }
 .navbar .navbar-nav {
    margin: 50px 0px auto 50px;
